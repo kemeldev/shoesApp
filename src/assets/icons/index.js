@@ -10,18 +10,26 @@ import shieldTick from './shield-tick.svg'
 import star from './star.svg'
 import truckFast from './truck-fast.svg'
 import twitter from './twitter.svg'
+import searchIcon from './searchIcon.svg'
+import shoppingCartBlack from './shoppingCartBlack.svg'
+import leftredarrow from './leftredarrow.svg'
+import rightredarrow from './rightredarrow.svg'
 
 export {
-    arrowRight,
-    cheveronRight,
-    chevronLeft,
-    copyrightSign,
-    facebook,
-    hamburger,
-    instagram,
-    support,
-    shieldTick,
-    star,
-    truckFast,
-    twitter
+  arrowRight,
+  cheveronRight,
+  chevronLeft,
+  copyrightSign,
+  facebook,
+  hamburger,
+  instagram,
+  support,
+  shieldTick,
+  star,
+  truckFast,
+  twitter,
+  searchIcon,
+  shoppingCartBlack,
+  rightredarrow,
+  leftredarrow
 }

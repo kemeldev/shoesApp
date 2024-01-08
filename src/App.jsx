@@ -5,16 +5,17 @@ function App () {
   return (
     <main className='relative'>
       <Nav />
-      <section className='xl:padding-l wide:padding-r padding-b'>
+      <hr className='border-t-2 border-black my-2 mx-8' />
+      <section className='container mx-auto border border-red-500'>
         <Hero />
       </section>
-      <section className='padding'>
+      <section className='container mx-auto border py-12 border-yellow-500'>
         <PopularProducts />
       </section>
-      <section className='padding'>
+      <section className='container mx-auto border py-12 border-cyan-500'>
         <SuperQuality />
       </section>
-      <section className='padding-x py-10'>
+      <section className='container mx-auto border py-12 border-red-500'>
         <Services />
       </section>
       <section className='padding'>

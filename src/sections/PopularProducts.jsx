@@ -1,7 +1,39 @@
-import { products } from '../constants'
+import { products as productsList } from '../products/productsList.json'
 import { PopularProductCard } from '../components'
+import { useState, useEffect } from 'react'
 
 const PopularProducts = () => {
+  const [popularProducts, setPopularProducts] = useState([])
+
+  // Function to generate a random number between 0 and max (exclusive)
+  function getRandomNumber (max) {
+    return Math.floor(Math.random() * max)
+  }
+
+  // Function to get an array of 5 unique random items
+  function getRandomItems (array, count) {
+    const randomItems = []
+
+    while (randomItems.length < count) {
+      const randomIndex = getRandomNumber(array.length)
+      const selectedItem = array[randomIndex]
+
+      // Make sure the selected item is not already in the randomItems array
+      if (!randomItems.includes(selectedItem)) {
+        randomItems.push(selectedItem)
+      }
+    }
+
+    return randomItems
+  }
+
+  // Get 5 random items
+  const randomProducts = getRandomItems(productsList, 5)
+
+  useEffect(() => {
+    setPopularProducts(randomProducts)
+  }, [])
+
   return (
     <section id='products' className='max-container max-sm:mt-12'>
       <div className='flex flex-col justify-start gap-5'>
@@ -15,8 +47,8 @@ const PopularProducts = () => {
       </div>
 
       <div className='mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14'>
-        {products.map((product) => (
-          <PopularProductCard key={product.name} {...product} />
+        {popularProducts.map((product) => (
+          <PopularProductCard key={product.id} {...product} />
         ))}
       </div>
     </section>

@@ -1,0 +1,5 @@
+.custom-opacity {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  /* Customize the transition duration and easing as needed */
+}
