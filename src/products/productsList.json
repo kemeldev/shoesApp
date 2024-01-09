@@ -178,6 +178,8 @@
       "stock": 96,
       "brand": "under armour",
       "category": "outdoor",
+      "isFavorite": true,
+      "isFavoriteImg": "https://images.unsplash.com/photo-1600100315760-ac46b65f6fdd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGlraW5nJTIwYm9vdHN8ZW58MHx8MHx8fDA%3D",
       "thumbnail": "https://underarmour.scene7.com/is/image/Underarmour/3025573-900_DEFAULT?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
       "images": [
         "https://underarmour.scene7.com/is/image/Underarmour/3025573-900_A?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
@@ -470,8 +472,6 @@
       "stock": 113,
       "brand": "nike",
       "category": "football",
-      "isFavorite": true,
-      "isFavoriteImg": "https://edge.curalate.com/v1/img/oJtDCjKizcuu5tm2qkHJtuW7h7n7_N7MUf-YKvJS1tA=/sc/450x450?spatialTags=0.6375263333320618:0.6850353479385376&typ=webp",
       "thumbnail": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e1c6eebd-02de-4c49-9992-763ce0aaf3b9/phantom-gx-2-elite-lv8-botas-de-futbol-de-perfil-bajo-fg-6057lF.png",
       "images": [
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aaeeca04-5668-41b2-b947-d8a45a3e7903/phantom-gx-2-elite-lv8-botas-de-futbol-de-perfil-bajo-fg-6057lF.png",

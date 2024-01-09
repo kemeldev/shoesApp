@@ -1,5 +1,52 @@
-.custom-opacity {
-  opacity: 1;
-  transition: opacity 0.5s ease;
-  /* Customize the transition duration and easing as needed */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrusel {
+  position: relative;
+  width: 90%;
+  height: 500px;
+  border: solid 5px green;
+  background-color: gray;
+  display: flex;
+
+  /* Ensure that the overflow is hidden to prevent the image from overflowing */
+}
+
+.sliderContainer {
+  height: 100%;
+  width: 400%;
+  position: absolute;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  border: red 1px solid;
+  /* Apply smooth transition to the transform property */
+}
+
+.sliderContainer>div {
+  flex: 1;
+  overflow: hidden;
+}
+
+.sliderContainer>div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btnChangeSlider {
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
 }

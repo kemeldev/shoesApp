@@ -2,11 +2,12 @@ import heroImageAdidas from './heroImageAdidas.jpg'
 import heroImageNike from './heroImageNike.jpg'
 import heroImageConverse from './heroImageConverse.jpg'
 
+import discoverStyle from './discoverStyle.jpg'
+import discoverFootball from './discoverFootball.jpg'
+import discoverTraining from './discoverTraining.jpg'
+import discoverRunning from './discoverRunning.webp'
+
 import cityshoe2 from './cityshoe2.png'
-import city from './city.avif'
-import outdoor from './outdoor.avif'
-import runningpark from './runningpark.avif'
-import footballfield from './footballfield.avif'
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
@@ -28,10 +29,10 @@ import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
 export {
-  city,
-  outdoor,
-  runningpark,
-  footballfield,
+  discoverFootball,
+  discoverRunning,
+  discoverTraining,
+  discoverStyle,
 
   heroImageAdidas,
   heroImageNike,

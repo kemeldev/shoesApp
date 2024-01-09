@@ -1,5 +1,32 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from '../assets/icons'
-import { customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from '../assets/images'
+import { customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, discoverFootball, discoverRunning, discoverTraining, discoverStyle } from '../assets/images'
+
+export const discovers = [
+  {
+    category: 'football',
+    img: discoverFootball,
+    title: 'Feel the passion',
+    description: 'A nice description comes here'
+  },
+  {
+    category: 'style',
+    img: discoverStyle,
+    title: 'Street slayer',
+    description: 'A nice description comes here'
+  },
+  {
+    category: 'running',
+    img: discoverRunning,
+    title: 'Do what you love',
+    description: 'A nice description comes here'
+  },
+  {
+    category: 'training',
+    img: discoverTraining,
+    title: 'Every day challenge',
+    description: 'A nice description comes here'
+  }
+]
 
 export const navLinks = [
   { href: '#home', label: 'Home' },
