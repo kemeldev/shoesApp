@@ -1,14 +1,12 @@
-import heroImage1 from './heroImage1.png'
+import heroImageAdidas from './heroImageAdidas.jpg'
+import heroImageNike from './heroImageNike.jpg'
+import heroImageConverse from './heroImageConverse.jpg'
 
 import cityshoe2 from './cityshoe2.png'
 import city from './city.avif'
 import outdoor from './outdoor.avif'
 import runningpark from './runningpark.avif'
 import footballfield from './footballfield.avif'
-
-import bigShoe2 from './big-shoe2.png'
-import bigShoe1 from './big-shoe1.png'
-import bigShoe3 from './big-shoe3.png'
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
@@ -35,11 +33,10 @@ export {
   runningpark,
   footballfield,
 
-  heroImage1,
+  heroImageAdidas,
+  heroImageNike,
+  heroImageConverse,
   cityshoe2,
-  bigShoe2,
-  bigShoe1,
-  bigShoe3,
 
   customer1,
   customer2,

@@ -14,8 +14,17 @@ import searchIcon from './searchIcon.svg'
 import shoppingCartBlack from './shoppingCartBlack.svg'
 import leftredarrow from './leftredarrow.svg'
 import rightredarrow from './rightredarrow.svg'
+import logoConverse from './logoConverse.jpg'
+import logoAdidas from './logoAdidas.webp'
+import logoNike from './logoNike.png'
+import logoUnderArmour from './logoUnderArmour.png'
 
 export {
+  logoAdidas,
+  logoConverse,
+  logoNike,
+  logoUnderArmour,
+
   arrowRight,
   cheveronRight,
   chevronLeft,

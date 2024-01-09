@@ -28,17 +28,17 @@ const PopularProducts = () => {
   }
 
   // Get 5 random items
-  const randomProducts = getRandomItems(productsList, 5)
+  const randomProducts = getRandomItems(productsList, 6)
 
   useEffect(() => {
     setPopularProducts(randomProducts)
   }, [])
 
   return (
-    <section id='products' className='max-container max-sm:mt-12'>
+    <section id='products' className='max-container max-sm:mt-12 mx-8 uppercase font-roboto font-black'>
       <div className='flex flex-col justify-start gap-5'>
-        <h2 className='text-4xl font-palanquin font-bold'>
-          Our <span className='text-coral-red'> Popular </span> Products
+        <h2 className='text-[34px] font-palanquin font-bold'>
+          Community <span className='text-blue-900'> Favourite </span> Products
         </h2>
         <p className='lg:max-w-lg mt-2 font-montserrat text-slate-gray'>
           Experience top-notch quality and style with our sought-after
@@ -46,7 +46,7 @@ const PopularProducts = () => {
         </p>
       </div>
 
-      <div className='mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14'>
+      <div className=' grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6'>
         {popularProducts.map((product) => (
           <PopularProductCard key={product.id} {...product} />
         ))}

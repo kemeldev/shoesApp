@@ -1,21 +1,27 @@
 import { Nav } from './components/Nav'
-import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality } from './sections'
+import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality, Brands, Favorites } from './sections'
 
 function App () {
   return (
     <main className='relative'>
       <Nav />
       <hr className='border-t-2 border-black my-2 mx-8' />
-      <section className='container mx-auto border border-red-500'>
+      <section className='container mx-auto '>
         <Hero />
       </section>
-      <section className='container mx-auto border py-12 border-yellow-500'>
-        <PopularProducts />
+      <section className='container mx-auto  py-12 '>
+        <Favorites />
       </section>
-      <section className='container mx-auto border py-12 border-cyan-500'>
+      <section className='container mx-auto py-12'>
         <SuperQuality />
       </section>
-      <section className='container mx-auto border py-12 border-red-500'>
+      <section className='container mx-auto py-12'>
+        <PopularProducts />
+      </section>
+      <section className='container mx-auto py-12'>
+        <Brands />
+      </section>
+      <section className='container mx-auto  py-12 '>
         <Services />
       </section>
       <section className='padding'>

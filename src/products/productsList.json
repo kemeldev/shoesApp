@@ -42,7 +42,7 @@
       "id": 3,
       "title": "trainer v",
       "description": "These adidas sneakers combine a stable fit and a refreshing feel to provide comfort as you start your daily workout. The flexible exterior and padded Geofit collar offer just the right amount of elasticity. The lightweight midsole with Bounce cushioning ensures comfort from the first to the last step of your day. Made with a series of recycled materials, this exterior incorporates at least 50% recycled content. This product represents just one of our solutions to address plastic waste.",
-      "price": 899,
+      "price": 149.99,
       "discountPercentage": 17.94,
       "rating": 4.44,
       "stock": 34,
@@ -84,11 +84,13 @@
       "discountPercentage": 17.91,
       "rating": 4.3,
       "stock": 123,
+      "isFavorite": true,
+      "isFavoriteImg": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/1b6089098972437aab005df053e13673_9366/GZ2604_HM6.jpg",
       "brand": "adidas",
       "category": "football",
-      "thumbnail": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/c84b8b135c6f47479f92aed30118babb_9366/HP9136_22_model.jpg",
+      "thumbnail": "https://assets.adidas.com/images/w_1880,f_auto,q_auto/b27466fa87ba4b84bb69aed301187359_9366/HP9136_01_standard.jpg",
       "images": [
-        "https://assets.adidas.com/images/w_1880,f_auto,q_auto/b27466fa87ba4b84bb69aed301187359_9366/HP9136_01_standard.jpg",
+        "https://assets.adidas.com/images/w_1880,f_auto,q_auto/c84b8b135c6f47479f92aed30118babb_9366/HP9136_22_model.jpg",
         "https://assets.adidas.com/images/w_1880,f_auto,q_auto/6b3529ad632b4fe9ad4faf1600f464f5_9366/HP9136_010_hover_standard.jpg",
         "https://assets.adidas.com/images/w_1880,f_auto,q_auto/d2bb3faec2524b0cb5e7aed3011883c0_9366/HP9136_02_standard.jpg",
         "https://assets.adidas.com/images/w_1880,f_auto,q_auto/d8fa830ddb944fe897b5aed3011889a5_9366/HP9136_03_standard.jpg"
@@ -120,7 +122,7 @@
       "discountPercentage": 4.15,
       "rating": 4.25,
       "stock": 50,
-      "brand": "Samsung",
+      "brand": "under armour",
       "category": "training",
       "thumbnail": "https://underarmour.scene7.com/is/image/Underarmour/3026017-004_DEFAULT?rp=standard-30pad%7CpdpMainDesktop&scl=1&fmt=jpg&qlt=75&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=566&hei=708&size=536%2C688",
       "images": [
@@ -237,25 +239,6 @@
         "https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw6ab5d9b4/images/d_08/A04597C_D_08X1.jpg?sw=406",
         "https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw22746b1e/images/g_08/A04597C_G_08X1.jpg?sw=406",
         "https://www.converse.com/dw/image/v2/BJJF_PRD/on/demandware.static/-/Sites-cnv-master-catalog-we/default/dw34b18461/images/b_08/A04597C_B_08X1.jpg?sw=406"
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Fog Scent Xpressio Perfume",
-      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-      "price": 13,
-      "discountPercentage": 8.14,
-      "rating": 4.59,
-      "stock": 61,
-      "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
-      "images": [
-        "https://i.dummyjson.com/data/products/13/1.jpg",
-        "https://i.dummyjson.com/data/products/13/2.png",
-        "https://i.dummyjson.com/data/products/13/3.jpg",
-        "https://i.dummyjson.com/data/products/13/4.jpg",
-        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
       ]
     },
     {
@@ -441,11 +424,11 @@
     },
     {
       "id": 25,
-      "title": "Nike Superfly 9 Elite Mercurial Dream Speed",
+      "title": "Nike Superfly 9 Elite",
       "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
-      "price": 180,
+      "price": 189.99,
       "discountPercentage": 16.8,
-      "rating": 4.94,
+      "rating": 4.99,
       "stock": 113,
       "brand": "nike",
       "category": "football",
@@ -455,6 +438,45 @@
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7e262f53-c243-462b-83e5-ea547d0d9472/superfly-9-elite-mercurial-dream-speed-botas-de-futbol-de-perfil-alto-fg-PLv5KV.png",
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/24a0f0ba-317b-4f0e-b7d4-536fb8d94e07/superfly-9-elite-mercurial-dream-speed-botas-de-futbol-de-perfil-alto-fg-PLv5KV.png",
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c43b56c6-9a43-4cce-9c3c-81f2466b0e5a/superfly-9-elite-mercurial-dream-speed-botas-de-futbol-de-perfil-alto-fg-PLv5KV.png"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "UA Flow FUTR X 3",
+      "description": "We upgraded your go-to basketball shoes with an adaptive UA IntelliKnit upper and Gore straps for ultimate support and lockdown. And you get best-in-class cushioning and grip with UA Flow.",
+      "price": 179.99,
+      "discountPercentage": 16.8,
+      "rating": 4.95,
+      "stock": 113,
+      "brand": "under armour",
+      "category": "training",
+      "isFavorite": true,
+      "isFavoriteImg": "https://edge.curalate.com/v1/img/iyAIi8-cUtEHOoFHDMwNVxlK-f-21Vb2ot1XUtAz0pI=/sc/450x450?spatialTags=0.4171404540538788:0.42812684178352356&typ=webp",
+      "thumbnail": "https://underarmour.scene7.com/is/image/Underarmour/3026834-100_DEFAULT?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+      "images": [
+        "https://underarmour.scene7.com/is/image/Underarmour/3026834-100_A?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7e262f53-c243-462b-83e5-ea547d0d9472/superfly-9-elite-mercurial-dream-speed-botas-de-futbol-de-perfil-alto-fg-PLv5KV.png",
+        "https://underarmour.scene7.com/is/image/Underarmour/3026834-100_TOE?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850",
+        "https://underarmour.scene7.com/is/image/Underarmour/3026834-100_PAIR?rp=standard-30pad%7CpdpMainDesktop&scl=0.5&fmt=jpg&qlt=85&resMode=sharp2&cache=on%2Con&bgc=f0f0f0&wid=1836&hei=1950&size=850%2C850"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Nike Phantom GX 2 Elite LV8",
+      "description": "Do you obsess over perfecting your skill? These boots are for you. In the midst of the storm, with chaos swirling around you, you've calmly made it to the final third of the field, thanks to your strange blend of cunning and grace with the ball. Top it off with the Phantom GX 2 Elite. The revolutionary Nike Gripknit material covers the impact area of the boots, and Nike Cyclone 360 traction guides your unexpected agility. We've designed the Elite boots for you and the world's greatest stars to provide you with the utmost quality, because we know you demand greatness from both yourself and your boots.",
+      "price": 229.99,
+      "discountPercentage": 16.8,
+      "rating": 4.98,
+      "stock": 113,
+      "brand": "nike",
+      "category": "football",
+      "isFavorite": true,
+      "isFavoriteImg": "https://edge.curalate.com/v1/img/oJtDCjKizcuu5tm2qkHJtuW7h7n7_N7MUf-YKvJS1tA=/sc/450x450?spatialTags=0.6375263333320618:0.6850353479385376&typ=webp",
+      "thumbnail": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e1c6eebd-02de-4c49-9992-763ce0aaf3b9/phantom-gx-2-elite-lv8-botas-de-futbol-de-perfil-bajo-fg-6057lF.png",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aaeeca04-5668-41b2-b947-d8a45a3e7903/phantom-gx-2-elite-lv8-botas-de-futbol-de-perfil-bajo-fg-6057lF.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8ac118d2-4395-477d-8ce5-6be00202fd92/phantom-gx-2-elite-lv8-botas-de-futbol-de-perfil-bajo-fg-6057lF.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2168c8d1-d7be-4679-b603-25883f09d83b/phantom-gx-2-elite-lv8-botas-de-futbol-de-perfil-bajo-fg-6057lF.png"
       ]
     }
   ],

@@ -12,7 +12,6 @@ const SuperQuality = () => {
     runningpark: 'runningpark'
   }
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  console.log(currentImageIndex)
 
   const images = [city, outdoor, runningpark, footballfield]
 
