@@ -2,7 +2,7 @@ import Home from './Pages/Home/Home'
 import { Route, Routes } from 'react-router-dom'
 import Products from './Pages/Products/Products'
 import { PageNotFound } from './Pages/PageNotFound/PageNotFound'
-import { Details } from './Pages/Details/ShoeDetails'
+import Details from './Pages/Details/ShoeDetails'
 
 function App () {
   return (

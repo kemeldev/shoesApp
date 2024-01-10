@@ -3,7 +3,7 @@ import { Footer } from '../../sections'
 import { Ribbon } from '../../sections/Ribbon'
 import { ShowProducts } from '../../sections/ShowProducts'
 
-function Products () {
+function Details () {
   return (
     <main className='relative'>
       <Nav />
@@ -21,4 +21,4 @@ function Products () {
   )
 }
 
-export default Products
+export default Details
