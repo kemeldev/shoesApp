@@ -1,9 +1,16 @@
 import { star } from '../assets/icons'
+import { Link } from 'react-router-dom'
 
-const PopularProductCard = ({ thumbnail, title, price, brand, rating }) => {
+const PopularProductCard = ({ thumbnail, title, price, brand, rating, id }) => {
   return (
     <div className='flex flex-1 flex-col w-full max-sm:w-full'>
-      <img src={thumbnail} alt={title} className='w-[350px] h-[350px] mx-auto block cursor-pointer' />
+      <Link
+        to={`/products/${id}`}
+        // state={{ dataToRender }}
+      >
+        <img src={thumbnail} alt={title} className='w-[350px] h-[350px] mx-auto block cursor-pointer' />
+
+      </Link>
       <div className='mx-2 flex row  items-center justify-around'>
         <p className='mt-2 font-semibold capitalize text-2xl leading-normal font-roboto'>
           {brand}

@@ -1,6 +1,6 @@
 import Hero from './Hero'
 import PopularProducts from './PopularProducts'
-import SuperQuality from './SuperQuality'
+import Discover from './Discover'
 import Services from './Services'
 import SpecialOffer from './SpecialOffer'
 import CustomerReviews from './CustomerReviews'
@@ -12,7 +12,7 @@ import Favorites from './Favorites'
 export {
   Hero,
   PopularProducts,
-  SuperQuality,
+  Discover,
   Services,
   SpecialOffer,
   CustomerReviews,

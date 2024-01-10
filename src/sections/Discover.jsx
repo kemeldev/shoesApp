@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { leftredarrow, rightredarrow } from '../assets/icons'
-import './superquality.css'
+import './Discover.css'
 import { discovers } from '../constants'
 
-const SuperQuality = () => {
+const Discover = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const handleButtonClick = (index) => {
@@ -34,4 +34,4 @@ const SuperQuality = () => {
   )
 }
 
-export default SuperQuality
+export default Discover

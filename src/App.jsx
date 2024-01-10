@@ -1,42 +1,23 @@
-import { Nav } from './components/Nav'
-import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality, Brands, Favorites } from './sections'
+import Home from './Pages/Home/Home'
+import { Route, Routes } from 'react-router-dom'
+import Products from './Pages/Products/Products'
+import { PageNotFound } from './Pages/PageNotFound/PageNotFound'
+import { Details } from './Pages/Details/ShoeDetails'
 
 function App () {
   return (
-    <main className='relative'>
-      <Nav />
-      <hr className='border-t-2 border-black my-2 mx-8' />
-      <section className='container mx-auto '>
-        <Hero />
-      </section>
-      <section className='container mx-auto  py-12 '>
-        <Favorites />
-      </section>
-      <section className='container mx-auto py-12'>
-        <SuperQuality />
-      </section>
-      <section className='container mx-auto py-12'>
-        <PopularProducts />
-      </section>
-      <section className='container mx-auto py-12'>
-        <Brands />
-      </section>
-      <section className='container mx-auto  py-12 '>
-        <Services />
-      </section>
-      <section className='padding'>
-        <SpecialOffer />
-      </section>
-      <section className='bg-pale-blue padding'>
-        <CustomerReviews />
-      </section>
-      <section className='padding-x sm:py-32 py-16 w-full'>
-        <Subscribe />
-      </section>
-      <section className=' bg-black padding-x padding-t pb-8'>
-        <Footer />
-      </section>
-    </main>
+    <>
+      <div className='app'>
+
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/products' element={<Products />} />
+          <Route path='/products/:id' element={<Details />} />
+          <Route path='*' element={<PageNotFound />} />
+
+        </Routes>
+      </div>
+    </>
   )
 }
 
