@@ -1,20 +1,21 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Catalog } from './Catalog'
 import { Filters } from './Filters'
-import { products as productsList } from '../products/productsList.json'
-import { useFiltersHook } from '../context/filtersContext.jsx'
+import useFiltersStore from '../store/filtersStore'
 
 export function ShowProducts () {
-  const { globalFilters, filterProducts } = useFiltersHook()
+  const { globalFilters, globalProducts } = useFiltersStore()
   const [filters, setFilters] = useState(false)
   const [sort, setSort] = useState(false)
-  const [productsCatalog, setProductsCatalog] = useState(productsList)
+  const [productsCatalog, setProductsCatalog] = useState(globalProducts)
+  console.log('global filters products page', globalFilters)
+  console.log('global products products page', globalProducts)
+
   // const initialCatalog = useRef(productsList)
 
-  // Use the filterProducts function to filter the products
-  const filteredProducts = filterProducts(productsList)
-
-  console.log(filteredProducts, globalFilters)
+  useEffect(() => {
+    setProductsCatalog(globalProducts)
+  }, [globalProducts])
 
   const handleSort = (e) => {
     e.preventDefault()
@@ -82,6 +83,7 @@ export function ShowProducts () {
         <Filters isActive={filters} />
 
         <Catalog products={productsCatalog} />
+
       </section>
 
     </>

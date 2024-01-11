@@ -1,8 +1,10 @@
 import { createContext, useState, useContext } from 'react'
+import { products as productsList } from '../products/productsList.json'
 
 export const FiltersContext = createContext()
 
 export function FiltersProvider ({ children }) {
+  const [globalProducts] = useState(productsList)
   const [globalFilters, setGlobalFilters] = useState({
     category: 'all',
     brand: 'all',
@@ -12,7 +14,8 @@ export function FiltersProvider ({ children }) {
   return (
     <FiltersContext.Provider value={{
       globalFilters,
-      setGlobalFilters
+      setGlobalFilters,
+      globalProducts
     }}
     >
       {children}
@@ -26,12 +29,7 @@ export function useFiltersHook () {
   const filterProducts = (products) => {
     // Implement your filtering logic here based on globalFilters
     const filteredProducts = products.filter((product) => {
-      // Replace these conditions with your actual filtering criteria
-      const categoryFilter = globalFilters.category === 'all' || product.category === globalFilters.category
-      const brandFilter = globalFilters.brand === 'all' || product.brand === globalFilters.brand
-      const discountFilter = product.discountPercentage >= globalFilters.discountPercentage
-
-      return categoryFilter && brandFilter && discountFilter
+      return product.category === globalFilters.category
     })
 
     return filteredProducts
