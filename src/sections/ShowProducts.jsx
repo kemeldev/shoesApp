@@ -4,14 +4,17 @@ import { Filters } from './Filters'
 import useFiltersStore from '../store/filtersStore'
 
 export function ShowProducts () {
-  const { globalFilters, globalProducts } = useFiltersStore()
+  const { globalProducts, globalFilters } = useFiltersStore()
   const [filters, setFilters] = useState(false)
   const [sort, setSort] = useState(false)
   const [productsCatalog, setProductsCatalog] = useState(globalProducts)
-  console.log('global filters products page', globalFilters)
-  console.log('global products products page', globalProducts)
 
   // const initialCatalog = useRef(productsList)
+
+  useEffect(() => {
+    // Scroll to the top of the page when the component is rendered
+    window.scrollTo(0, 0)
+  }, [])
 
   useEffect(() => {
     setProductsCatalog(globalProducts)
@@ -55,12 +58,21 @@ export function ShowProducts () {
     setSort(prevState => !prevState)
   }
 
+  const nowShowing = () => {
+    if (globalFilters.category === 'all') return 'ALL PRODUCTS'
+    else if (globalFilters.category === 'tennis') return 'TENNIS SHOES'
+    else if (globalFilters.category === 'outdoor') return 'OUTDOOR SHOES'
+    else if (globalFilters.category === 'football') return 'FOOTBALL SHOES'
+    else if (globalFilters.category === 'training') return 'TRAINING SHOES'
+    else return 'RUNNING SHOES'
+  }
+
   return (
     <>
       <header className='mx-8 flex flex-row justify-between'>
         <div className='flex flex-col'>
-          <h3>Now Showing "Category"</h3>
-          <h1>Football Shoes</h1>
+          <h3>Now Showing {nowShowing()}</h3>
+          <h1>Brand {globalFilters.brand === 'all' ? 'All' : globalFilters.brand}</h1>
         </div>
         <div className='flex gap-3'>
           <div>

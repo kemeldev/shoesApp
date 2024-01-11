@@ -7,6 +7,7 @@ const useFiltersStore = create((set) => ({
     brand: 'all',
     discountPercentage: 30
   },
+  productsList,
   globalProducts: productsList,
   setGlobalFilters: (newFilters) => set((state) => ({ globalFilters: { ...state.globalFilters, ...newFilters } })),
   setGlobalProducts: (newProducts) => set({ globalProducts: newProducts })

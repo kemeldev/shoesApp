@@ -9,7 +9,7 @@ export const discovers = [
     description: 'A nice description comes here'
   },
   {
-    category: 'style',
+    category: 'tennis',
     img: discoverStyle,
     title: 'Street slayer',
     description: 'A nice description comes here'
@@ -31,6 +31,8 @@ export const discovers = [
 export const brands = ['adidas', 'under armour', 'converse', 'nike']
 
 export const categories = ['running', 'football', 'training', 'outdoor']
+
+export const promotions = ['Products with discount']
 
 export const ribbonDescription = [
   { title: 'Free Shipping', description: 'This summer free shipping is included' },
