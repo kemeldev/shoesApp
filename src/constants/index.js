@@ -40,6 +40,8 @@ export const ribbonDescription = [
   { title: 'Special deals', description: 'Buy Special offers' }
 ]
 
+export const sizes = [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13]
+
 export const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#about-us', label: 'About Us' },

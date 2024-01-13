@@ -1,25 +1,97 @@
-.pageNotFound {
-  width: 120vw;
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+.pageNotFound-Container {
+  display: flex;
+  width: 100vw;
   height: 100vh;
-  position: relative;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
+  background: #131313;
+  color: #fff;
+  font-size: 76px;
+  font-family: 'Fira Mono', monospace;
 
 }
 
-.pageNotFound img {
-  width: 50%;
-  object-fit: cover;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-
+.pageNotFound div {
+  animation: glitch 1s linear infinite;
 }
 
-.pageNotFound strong {
+@keyframes glitch {
+
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+.pageNotFound div:before,
+.pageNotFound div:after {
+  content: attr(title);
   position: absolute;
-  top: 50%;
-  left: 50%;
+  left: 0;
+}
+
+.pageNotFound div:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop {
+
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+.pageNotFound div:after {
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom {
+
+  2%,
+  64% {
+    transform: translate(-2px, 0);
+  }
+
+  4%,
+  60% {
+    transform: translate(-2px, 0);
+  }
+
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
+}
+
+.gratitude {
+  font-size: small;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  color: #fff;
 }

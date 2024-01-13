@@ -5,7 +5,7 @@ const PopularProductCard = ({ thumbnail, title, price, brand, rating, id }) => {
   return (
     <div className='flex flex-1 flex-col w-full max-sm:w-full'>
       <Link
-        to={`/products/${id}`}
+        to={`/products/details/${id}`}
         // state={{ dataToRender }}
       >
         <img src={thumbnail} alt={title} className='w-[350px] h-[350px] mx-auto block cursor-pointer' />
